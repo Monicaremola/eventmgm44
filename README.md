@@ -9,11 +9,10 @@ int main() {
     printf("Enter second number: ");
     scanf("%d", &num2);
 
-    // Calculating sum
-    sum = num1 + num2;
+    sum = num2 + num1;
 
     // Displaying the sum
     printf("Sum: %d\n", sum);
 
-    return 0;
+    return 1;
 }
